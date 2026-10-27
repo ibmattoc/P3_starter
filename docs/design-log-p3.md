@@ -22,15 +22,15 @@ The address of the Tool pointed to by the unique_ptr Tool* does not change, even
 <!-- Trace the values and ops stacks for 2 * (3 + 4) - 5, one token at a
      time, in your own words. -->
 
-- 2 | Pushes 2 to VALUE stack
-- * | Pushes * to OPERATION stack
-- ( | Pushes ( to OPERATION stack
-- 3 | Pushes 3 to VALUE stack
-- + | Pushes + to OPERATION stack
-- 4 | Pushes 4 to VALUE stack
-- ) | Applies + to 3 and 4 resulting in 7; 3 and 4 are removed, + and ( are removed
-- - | Applies * to 2 and 7 resulting in 14; 2 and 7 are removed, * is removed and - is pushed to OPERATION stack
-- 5 | Pushes 5 to VALUE stack
+ 2 | Pushes 2 to VALUE stack
+ * | Pushes * to OPERATION stack
+ ( | Pushes ( to OPERATION stack
+ 3 | Pushes 3 to VALUE stack
+ + | Pushes + to OPERATION stack
+ 4 | Pushes 4 to VALUE stack
+ ) | Applies + to 3 and 4 resulting in 7; 3 and 4 are removed, + and ( are removed
+ \- | Applies * to 2 and 7 resulting in 14; 2 and 7 are removed, * is removed and - is pushed to OPERATION stack
+ 5 | Pushes 5 to VALUE stack
 
 Finally, - is applied to 14 and 5 resulting in the answer 9 in the VALUE stack.
 
@@ -40,3 +40,5 @@ Finally, - is applied to 14 and 5 resulting in the answer 9 in the VALUE stack.
 Errors are returned here instead of throwing exceptions because the errors provide data which the model can relay to the user. Explaining the error directly to the user is efficient; the user can adjust their usage accordingly to yield a successful response to the next prompt. Exceptions can be the better choice, however, when the problem does not arise from the user. User-generated problems should be shown to the user; the specific details of other errors should be abstracted or otherwise obscured.
 
 ## 5. What I would design differently
+
+N/A
