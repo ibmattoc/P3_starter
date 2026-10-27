@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\Debug\miniharness.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\Debug\test_loop.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\Debug\test_p2.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\Debug\test_p3.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

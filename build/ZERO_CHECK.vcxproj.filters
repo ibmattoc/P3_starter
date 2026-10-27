@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\build\CMakeFiles\dc421544da3c7fe28b0518d48d546d95\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{46DCC3D6-697E-32C0-A4AE-88C0E28DA1E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

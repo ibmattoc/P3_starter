@@ -1,0 +1,121 @@
+Start testing: Oct 26 01:45 Eastern Daylight Time
+----------------------------------------------------------
+1/4 Testing: p2_regression
+1/4 Test: p2_regression
+Command: "C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/Debug/test_p2.exe"
+Directory: C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build
+"p2_regression" start time: Oct 26 01:45 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+[PASS] conv_empty
+[PASS] conv_append_and_order
+[PASS] conv_holds_tool_role
+[PASS] conv_range_for
+[PASS] conv_copy_is_deep
+[PASS] conv_move_steals
+[PASS] scan_clean_text
+[PASS] scan_every_split
+[PASS] scan_one_byte_at_a_time
+[PASS] scan_false_alarm
+[PASS] harness_turn_limit
+[PASS] harness_eof
+[PASS] harness_sentinel_halts_and_is_hidden
+[PASS] harness_transcript_round_trip
+
+---- summary ----
+  conv           6 /   6
+  harness        4 /   4
+  scan           4 /   4
+  TOTAL         14 /  14
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"p2_regression" end time: Oct 26 01:45 Eastern Daylight Time
+"p2_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: p3
+2/4 Test: p3
+Command: "C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/Debug/test_p3.exe"
+Directory: C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build
+"p3" start time: Oct 26 01:45 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_p3.cpp:56: failed: r.add(std::move(t))
+[FAIL] reg_add_and_find
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_p3.cpp:66: failed: r.add(std::move(first))
+[FAIL] reg_duplicate_keeps_original
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_p3.cpp:77: failed: ws.resolve("notes/todo.txt", &out, &reason)
+[FAIL] ws_rejects_parent_escape
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_p3.cpp:86: failed: eval("2 + 3 * 4", &v, &err)
+[FAIL] calc_precedence
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_p3.cpp:94: failed: err == "division by zero"
+[FAIL] calc_division_by_zero
+
+---- summary ----
+  calc           0 /   2
+  reg            0 /   2
+  ws             0 /   1
+  TOTAL          0 /   5
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"p3" end time: Oct 26 01:45 Eastern Daylight Time
+"p3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: tool_loop
+3/4 Test: tool_loop
+Command: "C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/Debug/test_loop.exe"
+Directory: C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build
+"tool_loop" start time: Oct 26 01:45 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:48: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_model_tool_model_without_user_turn
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:79: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_escape_attempt_is_an_error_not_a_crash
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:102: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_chained_tool_rounds
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:126: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_tool_step_limit
+[PASS] loop_without_registry_is_p2_behavior
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:157: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_sentinel_wins_over_tool_call
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:173: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_client_error
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:185: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_system_message_lists_tools
+    C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\tests\p3\test_loop.cpp:198: failed: f.registry.find("calculator") != nullptr
+[FAIL] loop_transcript_round_trip_with_tools
+
+---- summary ----
+  loop           1 /   9
+  TOTAL          1 /   9
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"tool_loop" end time: Oct 26 01:45 Eastern Daylight Time
+"tool_loop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: bash
+4/4 Testing: e2e
+4/4 Test: e2e
+Command: "" "C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/tests/e2e/run_e2e.sh" "C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/Debug/miniharness.exe"
+Directory: C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter
+"e2e" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"e2e" end time: Oct 26 01:45 Eastern Daylight Time
+"e2e" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 26 01:45 Eastern Daylight Time

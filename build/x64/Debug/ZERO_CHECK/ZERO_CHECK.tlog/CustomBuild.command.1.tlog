@@ -1,0 +1,10 @@
+^C:\USERS\IZZIE\DOCUMENTS\NCSU\FALL2026\ECE309\P3_STARTER\P3_STARTER\BUILD\CMAKEFILES\DC421544DA3C7FE28B0518D48D546D95\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter -BC:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/MiniHarness.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

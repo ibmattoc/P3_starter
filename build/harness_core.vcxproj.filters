@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\reference\p2\src\conversation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\reference\p2\src\sentinel_scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\tool_registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\workspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\calculator_eval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\workspace_provided.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\calculator_tokenize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\calculator_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\file_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\tools\builtin_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\harness\tool_dispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\harness\harness.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\harness\transcript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\model\model_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\model\scripted_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\src\model\replay_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\izzie\Documents\ncsu\fall2026\ece309\P3_starter\P3_starter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60261128-DF79-34B5-9400-19E0A6B44C1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

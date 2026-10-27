@@ -1,0 +1,8 @@
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/harness_core.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/miniharness.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/test_p2.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/test_p3.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/test_loop.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/izzie/Documents/ncsu/fall2026/ece309/P3_starter/P3_starter/build/CMakeFiles/ZERO_CHECK.dir
